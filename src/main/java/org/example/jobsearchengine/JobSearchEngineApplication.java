@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JobSearchEngineApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JobSearchEngineApplication.class, args);
+
+        System.out.println("Working");
+        SpringApplication.run(JobSearchEngineApplication.class, args);
 	}
 
 }
